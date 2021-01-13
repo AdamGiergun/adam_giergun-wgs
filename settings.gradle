@@ -1,0 +1,3 @@
+include ':myresources'
+include ':mykotlinlibrary'
+include ':app'

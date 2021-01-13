@@ -1,0 +1,40 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="@string/app_look_preference_key"
+        android:summaryOff="@string/summary_app_look_mini"
+        android:summaryOn="@string/summary_app_look_rich"
+        android:title="@string/title_app_look" />
+
+    <androidx.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="@string/include_holidays_preference_key"
+        android:summaryOff="@string/summary_show_holidays_off"
+        android:summaryOn="@string/summary_show_holidays_on"
+        android:title="@string/title_show_holidays" />
+
+    <androidx.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="@string/include_non_commerce_days_preference_key"
+        android:summaryOff="@string/summary_show_non_commerce_days_off"
+        android:summaryOn="@string/summary_show_non_commerce_days_on"
+        android:title="@string/title_show_non_commerce_days" />
+
+    <androidx.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="@string/include_commerce_sundays_preference_key"
+        android:summaryOff="@string/summary_show_commerce_sundays_off"
+        android:summaryOn="@string/summary_show_commerce_sundays_on"
+        android:title="@string/title_show_commerce_sundays" />
+
+    <androidx.preference.ListPreference
+        android:defaultValue="14"
+        android:entries="@array/app_widget_text_size_names"
+        android:entryValues="@array/app_widget_text_size_values"
+        android:key="@string/key_app_widget_text_size"
+        android:title="@string/title_app_widget_text_size"
+        app:useSimpleSummaryProvider="true" />
+
+</androidx.preference.PreferenceScreen>
