@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "123456789012",
+    "firebase_url": "https://stub.firebaseio.com",
+    "project_id": "stub",
+    "storage_bucket": "stub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035469437089:android:1234567890abcdef",
+        "android_client_info": {
+          "package_name": "eu.adamgiergun.wontgoshoppingpl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337894902146-e4uksm38sne0bqrj6uvkbo4oiu4hvigl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.adamgiergun.wontgoshoppingpl",
+            "certificate_hash": "1234567890abcdef1234567890abcdef12345678"
+          }
+        },
+        {
+          "client_id": "5337894902146-e4uksm38sne0bqrj6uvkbo4oiu4hvigl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.adamgiergun.wontgoshoppingpl",
+            "certificate_hash": "1234567890abcdef1234567890abcdef12345678"
+          }
+        },
+        {
+          "client_id": "5337894902146-e4uksm38sne0bqrj6uvkbo4oiu4hvigl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzbSyCILMsOuUKwN3qhtxrPq7FFemDJUAXTyZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5337894902146-e4uksm38sne0bqrj6uvkbo4oiu4hvigl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1234567890123456~1234567890"
+    }
+  ],
+  "configuration_version": "1"
+}

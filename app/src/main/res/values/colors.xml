@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryMini">#3F51B5</color>
+    <color name="colorPrimaryDarkMini">#303F9F</color>
+    <color name="colorPrimaryRich">@android:color/holo_orange_light</color>
+    <color name="colorPrimaryDarkRich">@android:color/holo_orange_dark</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCardText">#FFFFFF</color>
+    <color name="colorEditableField">#BEBEBE</color>
+
+    <color name="colorHoliday">#FF0000</color>
+    <color name="colorNonCommerceDay">#FF1493</color>
+    <color name="colorCommerceSunday">@android:color/holo_green_dark</color>
+</resources>
